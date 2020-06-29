@@ -331,7 +331,7 @@
                 </div><!-- Row -->
             </div><!-- Main Wrapper -->
             <div class="page-footer">
-                <p class="no-s"><?php echo date('Y'); ?> &copy; Powered by Rony Setiadi.</p>
+                <p class="no-s"><?php echo date('Y'); ?> &copy; Powered by Rony  .</p>
             </div>
         </div><!-- Page Inner -->
     </main><!-- Page Content -->

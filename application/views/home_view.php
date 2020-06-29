@@ -1,83 +1,85 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <title>RAWUH MADIUN &mdash; Informasi Digital Pariwisata Kota Madiun </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>RAWUH MADIUN &mdash; Informasi Digital Pariwisata Kota Madiun </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
 
-	
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/fonts/icomoon/style.css')?>"/>
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/font-awesome.min.css')?>">
-    <link href="//maxcdcn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.-css" rel="stylesheet" href="<?php echo base_url('assets/front/fonts/icomoon/style.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/bootstrap.min.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/bootstrap-datepicker.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/jquery.fancybox.min.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/owl.carousel.min.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/owl.theme.default.min.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/fonts/flaticon/font/flaticon.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/aos.css')?>">
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/front/css/style.css')?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/fonts/icomoon/style.css') ?>" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/font-awesome.min.css') ?>">
+  <link href="//maxcdcn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.-css" rel="stylesheet" href="<?php echo base_url('assets/front/fonts/icomoon/style.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/bootstrap.min.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/bootstrap-datepicker.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/jquery.fancybox.min.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/owl.carousel.min.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/owl.theme.default.min.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/fonts/flaticon/font/flaticon.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/aos.css') ?>">
 
-  </head>
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/front/css/style.css') ?>">
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+</head>
 
-    
-    <div class="site-wrap" id="home-section">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
+
+  <div class="site-wrap" id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-        <div class="site-mobile-menu-body"></div>
       </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
 
 
-      <header class="site-navbar site-navbar-target" role="banner">
+    <header class="site-navbar site-navbar-target" role="banner">
 
-        <div class="container">
-          <div class="row align-items-center position-relative">
+      <div class="container">
+        <div class="row align-items-center position-relative">
 
-            <div class="col-3 ">
-              <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">
-                  <img src="assets/front/images/RAWUHMADIUN.png" alt="Image"></a>
-              </div>
+          <div class="col-3 ">
+            <div class="site-logo">
+              <a href="<?php echo site_url('home'); ?>" class="font-weight-bold">
+                <img src="assets/front/images/RAWUHMADIUN.png" alt="Image"></a>
             </div>
+          </div>
 
-            <div class="col-9  text-right">
-              
+          <div class="col-9  text-right">
 
-              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
 
-              
+            <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
 
-              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <!-- <li class="active"><a href="index.html" class="nav-link">Home</a></li> -->
-                  <!-- <li><a href="about.html" class="nav-link">About</a></li>
+
+
+            <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                <!-- <li class="active"><a href="index.html" class="nav-link">Home</a></li> -->
+                <!-- <li><a href="about.html" class="nav-link">About</a></li>
                   <li><a href="trips.html" class="nav-link">Trips</a></li>
                   <li><a href="blog.html" class="nav-link">Blog</a></li> -->
-                  <li><p style="font-family:futura bk bt"> Paguyuban Kakang Mbakyu</p>
-                <h4 style="font-family:JUNAR"><strong>KOTA MADIUN</strong></h3></li>
-                </ul>
-              </nav>
-            </div>
-
-            
+                <li>
+                  <p style="font-family:futura bk bt"> Paguyuban Kakang Mbakyu</p>
+                  <h4 style="font-family:JUNAR"><strong>KOTA MADIUN</strong></h3>
+                </li>
+              </ul>
+            </nav>
           </div>
-        </div>
 
-      </header>
+
+        </div>
+      </div>
+
+    </header>
 
     <div class="ftco-blocks-cover-1">
       <div class="site-section-cover overlay" style="background-image: url('assets/front/images/covera.jpg')">
@@ -104,7 +106,7 @@
               <h3 style="font-family:futura bk bt">PARIWISATA KOTA MADIUN</h3>
             </div>
             <p align="justify">Kota Madiun memiliki potensi yang besar di bidang pariwisata. Ragam Kesenian, Budaya, Sejarah, dan Tata Kota yang indah menjadikan kota ini menjadi tujuan destinasi wisata baru di Provinsi Jawa Timur.</p>
-            <p align="justify">Rawuh Madiun merupakan sistem informasi digital mengenai objek wisata yang ada di Kota Madiun, terdapat berbagai macam informasi seputar pariwisata kota sehingga memudahkan masyarakat dalam berkunjung maupun belajar mengenai pariwisata di Kota Madiun.  </p>
+            <p align="justify">Rawuh Madiun merupakan sistem informasi digital mengenai objek wisata yang ada di Kota Madiun, terdapat berbagai macam informasi seputar pariwisata kota sehingga memudahkan masyarakat dalam berkunjung maupun belajar mengenai pariwisata di Kota Madiun. </p>
           </div>
           <div class="col-md-6" data-aos="fade-right">
             <img src="assets/front/images/RAWUHMADIUN.png" alt="Image" class="img-fluid">
@@ -126,37 +128,37 @@
           </div>
         </div>
         <div class="row">
-		<?php foreach($latest_post->result() as $row):?>
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-            <div class="listing-item">
-              <div class="listing-image">
-                <img src="<?php echo base_url().'assets/images/thumb/'.$row->post_image?>" alt="Image" class="img-fluid">
-              </div>
-              <div class="listing-item-content">
-                <!-- <a class="px-3 mb-3 category bg-primary" href="#">$200.00</a> -->
-                <h2 class="mb-1"><a href="<?php echo site_url('blog/'.$row->post_slug);?>" title=""><?php echo $row->post_title;?></a></h2>
+          <?php foreach ($latest_post->result() as $row) : ?>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+              <div class="listing-item">
+                <div class="listing-image">
+                  <img src="<?php echo base_url() . 'assets/images/thumb/' . $row->post_image ?>" alt="Image" class="img-fluid">
+                </div>
+                <div class="listing-item-content">
+                  <!-- <a class="px-3 mb-3 category bg-primary" href="#">$200.00</a> -->
+                  <h2 class="mb-1"><a href="<?php echo site_url('blog/' . $row->post_slug); ?>" title=""><?php echo $row->post_title; ?></a></h2>
+                </div>
               </div>
             </div>
+
+          <?php endforeach; ?>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="mt-100 mt-md-80 mt-sm-60">
+          <div class="col-sm-6 col-sm-offset-3 text-center">
           </div>
-
-          <?php endforeach;?>
-
+        </div>
       </div>
     </div>
-<div class="row">
-							<div class="mt-100 mt-md-80 mt-sm-60">
-							<div class="col-sm-6 col-sm-offset-3 text-center">													
-							</div>						
-							</div>
-						</div>
-					</div>
 
-</div>	
-						
+  </div>
 
-    
 
-    <!-- <div class="site-section">
+
+
+  <!-- <div class="site-section">
 
       <div class="container">
 
@@ -237,95 +239,95 @@
     </div>
  -->
 
-    <div class="site-section">
-      <div class="container">
+  <div class="site-section">
+    <div class="container">
 
-        <div class="row justify-content-center text-center">
-          <div class="col-md-10">
-            <div class="heading-39101 mb-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-10">
+          <div class="heading-39101 mb-5">
 
-              
-              <h5 style="font-family:ARIAL">NARAHUBUNG</h5></br>
-      <!-- </div> -->
-      
-              <span class="backdrop text-center"></span>
-              <span style="font-family:futura bk bt class="subtitle-39191">PAGUYUBAN KAKANG DAN MBAKYU</span>
-              <h3 style="font-family:JUNAR">KOTA MADIUN</h3>
-            </div>
-          </div>
-        </div>
-      </div>
 
-        <div class="row">
+            <h5 style="font-family:ARIAL">NARAHUBUNG</h5></br>
+            <!-- </div> -->
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="person-29191 text-center">
-              <img alt="" class="img-fluid mb-4">
-              <div class="px-4">
-                <h2 class="mb-2"></h2>
-                <p class="caption mb-4"></p>
-                <p></p>
-                <div class="social_29128 mt-5">
-                <!-- <a href="#"><span class="icon-facebook"></span></a>  
-                <a href="#"><span class="icon-instagram"></span></a>  
-                <a href="#"><span class="icon-twitter"></span></a>   -->
-               </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="person-29191 text-center">
-              <img src="images/PAKANDAYU.png" alt="Image" class="img-fluid mb-4">
-              <div class="px-4">
-                <h2 style="font-family:futura bk bt" class="mb-2"><strong>PAKANDAYU KOTA MADIUN</strong></h2>
-                <p class="caption mb-4"></p>
-                <p align="justify">Merupakan Paguyuban atau Organisasi dibawah naungan Dinas Pariwisata Kota Madiun yang bertugas sebagai Pionir dan  Duta Wisata dalam penyebarluasan objek wisata Kota Madiun ke masyarakat luas. </p>
-                <div class="social_29128 mt-5">
-                <a href="mailto:kotamadiunpakandayu02@gmail.com"><span class="fa fa-envelope custom"></span></a>  
-                <a href="https://www.instagram.com/pakandayukotamadiun/"><span class="icon-instagram"></span></a>  
-                <a href="https://www.youtube.com/channel/UCsqbAQBg6L-djIon4tLlZlQ"><span class="fa fa-youtube"></span></a>
-                <a href="https://goo.gl/maps/Z2e9FYzkUtVdXdJU9"><span class="fa fa-map-marker"></span></a>
-               </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="person-29191 text-center">
-              <img alt="" class="img-fluid mb-4">
-              <div class="px-4">
-                <h2 class="mb-2"></h2>
-                <p class="caption mb-4"></p>
-                <p></p>
-                <div class="social_29128 mt-5">
-                <!-- <a href="#"><span class="icon-facebook"></span></a>  
-                <a href="#"><span class="icon-instagram"></span></a>  
-                <a href="#"><span class="icon-twitter"></span></a>   -->
-               </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>    
-
-    <div class="site-section bg-image overlay" style="background-image: url('images/BAKORWILCOVER.png')">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="font-weight-bold text-white">Mari Berwisata di Kota Madiun</h2>
-            <p class="text-white">Dengan fasilitas yang lengkap, dan memiliki banyak objek wisata yang beragam serta tata kota yang aman dan nyaman, Ayo Datang ke Kota Madiun ! </p>
-            <p class="mb-0"><a href="#" class="btn btn-primary text-white py-3 px-4">HALAMAN UTAMA</a></p>
+            <span class="backdrop text-center"></span>
+            <span style="font-family:futura bk bt class=" subtitle-39191">PAGUYUBAN KAKANG DAN MBAKYU</span>
+            <h3 style="font-family:JUNAR">KOTA MADIUN</h3>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="site-footer bg-light">
-      <div class="container">
-        <!-- <div class="row">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="person-29191 text-center">
+          <img alt="" class="img-fluid mb-4">
+          <div class="px-4">
+            <h2 class="mb-2"></h2>
+            <p class="caption mb-4"></p>
+            <p></p>
+            <div class="social_29128 mt-5">
+              <!-- <a href="#"><span class="icon-facebook"></span></a>  
+                <a href="#"><span class="icon-instagram"></span></a>  
+                <a href="#"><span class="icon-twitter"></span></a>   -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="person-29191 text-center">
+          <img src="images/PAKANDAYU.png" alt="Image" class="img-fluid mb-4">
+          <div class="px-4">
+            <h2 style="font-family:futura bk bt" class="mb-2"><strong>PAKANDAYU KOTA MADIUN</strong></h2>
+            <p class="caption mb-4"></p>
+            <p align="justify">Merupakan Paguyuban atau Organisasi dibawah naungan Dinas Pariwisata Kota Madiun yang bertugas sebagai Pionir dan Duta Wisata dalam penyebarluasan objek wisata Kota Madiun ke masyarakat luas. </p>
+            <div class="social_29128 mt-5">
+              <a href="mailto:kotamadiunpakandayu02@gmail.com"><span class="fa fa-envelope custom"></span></a>
+              <a href="https://www.instagram.com/pakandayukotamadiun/"><span class="icon-instagram"></span></a>
+              <a href="https://www.youtube.com/channel/UCsqbAQBg6L-djIon4tLlZlQ"><span class="fa fa-youtube"></span></a>
+              <a href="https://goo.gl/maps/Z2e9FYzkUtVdXdJU9"><span class="fa fa-map-marker"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="person-29191 text-center">
+          <img alt="" class="img-fluid mb-4">
+          <div class="px-4">
+            <h2 class="mb-2"></h2>
+            <p class="caption mb-4"></p>
+            <p></p>
+            <div class="social_29128 mt-5">
+              <!-- <a href="#"><span class="icon-facebook"></span></a>  
+                <a href="#"><span class="icon-instagram"></span></a>  
+                <a href="#"><span class="icon-twitter"></span></a>   -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <div class="site-section bg-image overlay" style="background-image: url('images/BAKORWILCOVER.png')">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 text-center">
+          <h2 class="font-weight-bold text-white">Mari Berwisata di Kota Madiun</h2>
+          <p class="text-white">Dengan fasilitas yang lengkap, dan memiliki banyak objek wisata yang beragam serta tata kota yang aman dan nyaman, Ayo Datang ke Kota Madiun ! </p>
+          <p class="mb-0"><a href="#" class="btn btn-primary text-white py-3 px-4">HALAMAN UTAMA</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer bg-light">
+    <div class="container">
+      <!-- <div class="row">
           <div class="col-lg-3">
             <h2 class="footer-heading mb-3">Instagram</h2>
             <div class="row">
@@ -373,41 +375,42 @@
             </div>
           </div>
         </div> -->
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Paguyuban Kakang Mbakyu Duta Wisata Kota Madiun </a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-5">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+              </script> Paguyuban Kakang Mbakyu Duta Wisata Kota Madiun </a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
-            </div>
           </div>
-
         </div>
+
       </div>
-    </footer>
-
     </div>
+  </footer>
 
-    <script src="<?php echo base_url('assets/front/js/jquery-3.3.1.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery-migrate-3.0.0.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/popper.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/bootstrap.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/owl.carousel.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery.sticky.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery.waypoints.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery.animateNumber.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery.fancybox.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery.stellar.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/jquery.easing.1.3.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/bootstrap-datepicker.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/isotope.pkgd.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/front/js/aos.js')?>"></script>
+  </div>
 
-    <script src="<?php echo base_url('assets/front/js/main.js')?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery-3.3.1.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery-migrate-3.0.0.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/popper.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/bootstrap.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/owl.carousel.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery.sticky.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery.waypoints.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery.animateNumber.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery.fancybox.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery.stellar.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/jquery.easing.1.3.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/bootstrap-datepicker.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/isotope.pkgd.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/front/js/aos.js') ?>"></script>
 
-  </body>
+  <script src="<?php echo base_url('assets/front/js/main.js') ?>"></script>
+
+</body>
 
 </html>
-

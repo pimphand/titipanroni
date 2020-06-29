@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="author" content="Rony Setiadi" />
+    <meta name="author" content="Rony  " />
     <link rel="shortcut icon" href="<?php echo base_url() . 'assets/images/favicon.png' ?>">
 
     <!-- Styles -->
@@ -244,7 +244,7 @@
                 </div><!-- Row -->
             </div><!-- Main Wrapper -->
             <div class="page-footer">
-                <p class="no-s"><?php echo date('Y'); ?> &copy; Powered by Rony Setiadi.</p>
+                <p class="no-s"><?php echo date('Y'); ?> &copy; Powered by Rony  .</p>
             </div>
         </div><!-- Page Inner -->
     </main><!-- Page Content -->
